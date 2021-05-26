@@ -1,0 +1,16 @@
+.fs-16 {
+    font-size: 16pt;
+}
+
+a {
+    cursor: pointer;
+}
+
+.side-right {
+    margin-left: auto;
+    margin-right: 5%
+}
+
+li #nomeUser {
+    padding: 26px;
+}
