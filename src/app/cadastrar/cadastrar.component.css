@@ -9,3 +9,20 @@
   background-size: cover;
 
 }
+
+.pd-top-20 {
+  padding-top: 20px;
+}
+
+.mg-top-20 {
+  margin-top: 20px;
+}
+
+.justify-content-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.mg-left-20 {
+  margin-left: 20px;
+}
