@@ -4,6 +4,7 @@
 
 a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .side-right {
@@ -12,5 +13,17 @@ a {
 }
 
 li #nomeUser {
-    padding: 26px;
+    margin-left: 26px;
+}
+
+.mg-left-name {
+    margin-left: 20px;
+}
+
+.mg-left-profile {
+    margin-left: 20px;
+}
+
+.mg-left-icon-profile {
+    margin-left: 20px;
 }
