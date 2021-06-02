@@ -7,11 +7,11 @@
   <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
     <ul class="navbar-nav mr-auto d-flex align-items-center">
       <li class="nav-item">
-        <img class="rounded-circle img-fluid mg-left-profile" src="../../assets/img/goku-profile.png" width="50px" height="50px" alt="Imagem usuário">
+        <img class="rounded-circle img-fluid" src={{foto}} width="50px" height="50px" alt="Imagem usuário">
       </li>
 
-      <li class="nav-item pl-3 pd-left mg-left-name">
-        <p class="m-0 font-weight-bold fs-16 text-white" id="nomeUser">Olá user</p>
+      <li class="nav-item pl-3 pd-left">
+        <p class="m-0 font-weight-bold fs-16 text-white" id="nomeUser">Olá, {{nome}}</p>
       </li>
 
       <li class="nav-item pl-3 mg-left-icon-profile">
@@ -23,7 +23,7 @@
 
     <ul class="navbar-nav ml-auto side-right">
       <li>
-        <a class="text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i>
+        <a (click)='sair()'  class="text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i>
         </a>
       </li>
     </ul>
