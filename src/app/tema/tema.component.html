@@ -48,10 +48,9 @@
                   </tr>
                 </thead>
                 <tbody>
-                    <th>
                   <tr *ngFor='let item of listaTemas'>
                     <th>{{item.id}}</th>
-                    <td>testeeeee</td>
+                    <td>{{item.descricao}}</td>
                     <td class="d-flex justify-content-center-end">
                         <button class="btn btn-info mr-3">Editar</button>
                         <button class="btn btn-danger">Apagar</button>
